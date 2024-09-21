@@ -1,0 +1,19 @@
+{
+  "spec": "2.0",
+  "mod_id": "celestia",
+  "name": "Celestia",
+  "author": "Rendezvouz Entertainment",
+  "description": "Colony building mod for KSP 2",
+  "source": "https://github.com/foonix/Ksp2Celestia",
+  "version": "0.0.1",
+  "dependencies": [
+    {
+      "id": "com.github.x606.spacewarp",
+      "version": {
+        "min": "1.5.1",
+        "max": "*"
+      }
+    }
+  ],
+  "conflicts": []
+}

@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1530b39010b4531bb0844b4e47f1cf4, type: 3}
   m_Name: KSP2ModInfo
   m_EditorClassIdentifier: 
-  id: sampleMod
-  name: Sample Mod
-  author: nobody
-  description: A sample mod for KSP2
-  version: 0.1.0
+  id: celestia
+  name: Celestia
+  author: Rendezvouz Entertainment
+  description: Colony building mod for KSP 2
+  version: 0.0.1
   versionCheck: 
-  minKsp2Version: '*'
+  minKsp2Version: 0.2.2
   maxKsp2Version: '*'
-  source: 
+  source: https://github.com/foonix/Ksp2Celestia
   dependencies:
   - Id: com.github.x606.spacewarp
     Min: 1.5.1

@@ -261,7 +261,7 @@ PlayerSettings:
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: {inproject}: {inproject}: {inproject}: {inproject}:
-    {inproject}: {inproject}: '
+    {inproject}: {inproject}: {inproject}: {inproject}: {inproject}: {inproject}: '
   AndroidKeyaliasName: 
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
@@ -326,9 +326,9 @@ PlayerSettings:
     m_GraphicsJobs: 0
   m_BuildTargetGraphicsJobMode:
   - m_BuildTarget: PS4Player
-    m_GraphicsJobMode: 273840
+    m_GraphicsJobMode: -2147209808
   - m_BuildTarget: XboxOnePlayer
-    m_GraphicsJobMode: 273840
+    m_GraphicsJobMode: -2147209808
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
@@ -759,7 +759,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 9640cddf-acc7-45b8-a4bb-230b967dab34
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames:
   - Fastest
@@ -768,8 +768,8 @@ PlayerSettings:
   - Good
   - Beautiful
   - Fantastic
-  projectName: KSP2
-  organizationId: privatedivision
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   hmiLoadingImage: {fileID: 0}

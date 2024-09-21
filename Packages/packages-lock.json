@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.bbepis.bepinex": {
+      "version": "file:BepInEx_KSP2",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.passivepicasso.bundlekit": {
       "version": "https://github.com/foonix/BundleKit.git#0.0.1",
       "depth": 0,
@@ -144,6 +150,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.2",
       "depth": 1,
@@ -250,6 +263,19 @@
         "com.unity.addressables": "1.21.18"
       },
       "hash": "30de455c1b9b592c2c421c16837780214d950847"
+    },
+    "mmhook-assemblies": {
+      "version": "file:mmhook-assemblies",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "org.foonix.generalimportextensions": {
+      "version": "https://github.com/foonix/GeneralImportExtensions.git#master",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "946eacb15c88b00f76684b152d394837a80a1779"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
