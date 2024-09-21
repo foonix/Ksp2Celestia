@@ -264,12 +264,6 @@
       },
       "hash": "30de455c1b9b592c2c421c16837780214d950847"
     },
-    "mmhook-assemblies": {
-      "version": "file:mmhook-assemblies",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-    },
     "org.foonix.generalimportextensions": {
       "version": "https://github.com/foonix/GeneralImportExtensions.git#master",
       "depth": 0,

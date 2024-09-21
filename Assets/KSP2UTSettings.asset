@@ -18,4 +18,4 @@ MonoBehaviour:
   savedModAddressablesPath: 
   savedKsp2Path: F:/games/ksp2/KSP2-0.2.2.0/KSP2_x64.exe
   loadTkImportedCatalog: 1
-  loadTkImportedCatalogPath: StreamingAssets/aa/catalog.json
+  loadTkImportedCatalogPath: StreamingAssets/ksp2/aa/catalog.json

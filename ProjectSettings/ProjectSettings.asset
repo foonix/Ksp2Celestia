@@ -135,7 +135,8 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.2.2.0
   preloadedAssets:
-  - {fileID: 5910, guid: 4747d1bc6be614b91adda1a9be1e01dd, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   metroInputSource: 1
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -156,7 +157,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: 
-    Standalone: unity.Intercept Games.Kerbal Space Program 2
+    Standalone: com.Intercept-Games.Kerbal-Space-Program-2
     VisionOS: 
     iPhone: 
     tvOS: 
@@ -260,8 +261,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: {inproject}: {inproject}: {inproject}: {inproject}:
-    {inproject}: {inproject}: {inproject}: {inproject}: {inproject}: {inproject}: '
+  AndroidKeystoreName: '{inproject}: {inproject}: '
   AndroidKeyaliasName: 
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
@@ -326,9 +326,9 @@ PlayerSettings:
     m_GraphicsJobs: 0
   m_BuildTargetGraphicsJobMode:
   - m_BuildTarget: PS4Player
-    m_GraphicsJobMode: -2147209808
+    m_GraphicsJobMode: -1878779136
   - m_BuildTarget: XboxOnePlayer
-    m_GraphicsJobMode: -2147209808
+    m_GraphicsJobMode: -1878779136
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
