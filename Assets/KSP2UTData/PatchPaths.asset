@@ -13,12 +13,6 @@ MonoBehaviour:
   m_Name: PatchPaths
   m_EditorClassIdentifier: 
   Keys:
-  - ColonyFounderCan
   - ColonyFounder
-  - gridfin_1v_radial
-  - gridfin_1v_radial(Clone)
   Values:
-  - plugin_template/patches/%NAME%.patch
-  - plugin_template/patches/%NAME%.patch
-  - plugin_template/patches/%NAME%.patch
   - plugin_template/patches/%NAME%.patch

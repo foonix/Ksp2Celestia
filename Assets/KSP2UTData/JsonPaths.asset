@@ -13,12 +13,6 @@ MonoBehaviour:
   m_Name: JsonPaths
   m_EditorClassIdentifier: 
   Keys:
-  - ColonyFounderCan
   - ColonyFounder
-  - gridfin_1v_radial
-  - gridfin_1v_radial(Clone)
   Values:
-  - '%NAME%.json'
-  - '%NAME%.json'
-  - '%NAME%.json'
   - '%NAME%.json'

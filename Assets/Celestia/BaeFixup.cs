@@ -25,8 +25,15 @@ namespace Celestia
 
         private static void InjectBaeDepsOnStart(Action<AssemblyPartsPicker> orig, AssemblyPartsPicker app)
         {
-            var baePicker = app.transform.parent.GetComponentInChildren<PartInfoOverlay>(true);
-            app.PartInfoOverlay = baePicker;
+            // Fix missing link to PartInfoOverlay, which is a sibling in the OAB prefab.
+            var partInfoOverlay = app.transform.parent.GetComponentInChildren<PartInfoOverlay>(true);
+            app.PartInfoOverlay = partInfoOverlay;
+
+            // Fix missing reference to size (S, M, L, XL, etc) color mapping by grabbing it from the OAB version.
+            var oabPicker = app.transform.parent.GetComponentsInChildren<AssemblyPartsPicker>(true)
+                .Where(child => child.name == "widget_PartsPicker")
+                .First();
+            app.filterColors = oabPicker.filterColors;
 
             orig(app);
         }
