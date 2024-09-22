@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1530b39010b4531bb0844b4e47f1cf4, type: 3}
   m_Name: KSP2ModInfo
   m_EditorClassIdentifier: 
-  id: celestia
+  id: Celestia
   name: Celestia
   author: Rendezvouz Entertainment
   description: Colony building mod for KSP 2

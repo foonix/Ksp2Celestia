@@ -103,6 +103,7 @@ Assets/StreamingAssets*
 
 ksp2.log
 dist
+KSP2UnityToolsTempBuild
 
 # This directory contains data that can't be distributed by copyright.
 Assets/DoNotDistribute*

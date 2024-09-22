@@ -35,7 +35,7 @@ namespace Celestia.Editor
 
             // config
             string modName = "Celestia";
-            var tmPluginDir = Path.Combine(tkSettings.GamePath, "BepInEx", "plugins", modName);
+            var pluginDir = Path.Combine(tkSettings.GamePath, "BepInEx", "plugins", modName);
             var bepInExPrepatchDir = Path.Combine(tkSettings.GamePath, "BepInEx", "patchers");
             var buildFolder = "build";
             var pluginSrcManagedAssemblies = new string[]
@@ -63,7 +63,7 @@ namespace Celestia.Editor
                 foreach (var assmeblyName in pluginSrcManagedAssemblies)
                 {
                     var managedSrc = Path.Combine(buildFolder, $"{modName}_Data/Managed/{assmeblyName}.dll");
-                    var managedDest = Path.Combine(tmPluginDir, $"{assmeblyName}.dll");
+                    var managedDest = Path.Combine(pluginDir, $"{assmeblyName}.dll");
                     CopyOverwrite(managedSrc, managedDest);
 
                     var managedPdbDest = managedDest.Replace(".dll", ".pdb");
@@ -102,6 +102,8 @@ namespace Celestia.Editor
                 //var prepatchSrc = Path.Combine(buildFolder, $"{modName}_Data/Managed/{modName}.Prepatch.dll");
                 //var prepatchDest = Path.Combine(bepInExPrepatchDir, $"{modName}.Prepatch.dll");
                 //CopyOverwrite(prepatchSrc, prepatchDest);
+
+                var addressablesDir = Path.Combine(pluginDir, "addressables");
 
                 Debug.Log($"{modName} build complete");
                 return true;

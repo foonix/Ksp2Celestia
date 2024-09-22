@@ -1,22 +1,19 @@
 using BepInEx;
-using BepInEx.Configuration;
-using KSP.OAB;
-using KSP.Sim.impl;
-using System.Collections;
+using MonoMod.RuntimeDetour;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace Celestia
 {
     [BepInPlugin("Celestia", "Celestia", "0.0.1")]
     public class CelestiaPlugin : BaseUnityPlugin
     {
+        bool baeFixupsApplied = false;
+
+        private List<IDetour> hooks = new();
+
         private void Start()
         {
-        }
-
-        private void Update()
-        {
+            hooks.AddRange(BaeFixup.MakeHooks());
         }
     }
 }

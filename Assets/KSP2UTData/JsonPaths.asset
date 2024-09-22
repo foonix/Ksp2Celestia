@@ -9,8 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
-  m_Name: celestia_ContentUpdateGroupSchema
+  m_Script: {fileID: 11500000, guid: 87a7c8ca6df943af9ea67de238f088e6, type: 3}
+  m_Name: JsonPaths
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: 72e33f4bdd1e4ce4c87de5a08c7749b7, type: 2}
-  m_StaticContent: 0
+  Keys:
+  - ColonyFounderCan
+  - ColonyFounder
+  - gridfin_1v_radial
+  - gridfin_1v_radial(Clone)
+  Values:
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'

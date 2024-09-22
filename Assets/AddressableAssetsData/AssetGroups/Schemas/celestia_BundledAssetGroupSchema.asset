@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5d17a21594effb4e9591490b009e7aa, type: 3}
-  m_Name: celestia_BundledAssetGroupSchema
+  m_Name: Celestia_BundledAssetGroupSchema
   m_EditorClassIdentifier: 
   m_Group: {fileID: 11400000, guid: 72e33f4bdd1e4ce4c87de5a08c7749b7, type: 2}
   m_InternalBundleIdMode: 1

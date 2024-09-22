@@ -10,16 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: celestia
+  m_Name: Celestia
   m_EditorClassIdentifier: 
-  m_GroupName: celestia
+  m_GroupName: Celestia
   m_Data:
     m_SerializedData: []
-  m_GUID: a80dfd92b8f75c440b146d8e3634ce81
-  m_SerializeEntries: []
+  m_GUID: ade3a5e0c1dfb76439f4967becda1c7b
+  m_SerializeEntries:
+  - m_GUID: 4d4629608efafb54b9e219c0d06e43a7
+    m_Address: ColonyFounder.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abbc4ca2fe0919f4182817e37bb0f6fe
+    m_Address: ColonyFounder.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b1800c1c4b6d6f44daa7924e13a4a08b, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: af91d75cd0eafc94a94e358971bcdd90, type: 2}
     - {fileID: 11400000, guid: 295db5697fab40040a80c1cb259f8bea, type: 2}

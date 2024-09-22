@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: a80dfd92b8f75c440b146d8e3634ce81
+  m_DefaultGroup: ade3a5e0c1dfb76439f4967becda1c7b
   m_currentHash:
     serializedVersion: 2
-    Hash: bd5dc1e650eeaf353f3d9a475f6a0903
+    Hash: 518409fb93ea23b77675c1536fb41c2e
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
       - m_Id: 3cc5e9a3e24649c4a95b057864fb0bde
         m_Value: Library/com.unity.addressables/aa/Windows/StandaloneWindows64
       - m_Id: cbb42c2923e9f41429076a718a278290
-        m_Value: '{SpaceWarpPaths.celestia}/addressables/StandaloneWindows64'
+        m_Value: '{SpaceWarpPaths.Celestia}/addressables/StandaloneWindows64'
       - m_Id: 648e22d55c32ac9449f989567e30946d
         m_Value: ServerData/[BuildTarget]
       - m_Id: 0e55ce2b590f659459205854e60d9d12

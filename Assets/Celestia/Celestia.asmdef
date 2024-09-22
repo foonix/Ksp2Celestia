@@ -8,7 +8,8 @@
     "overrideReferences": true,
     "precompiledReferences": [
         "Assembly-CSharp.dll",
-        "BepInEx.dll"
+        "BepInEx.dll",
+        "MonoMod.RuntimeDetour.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [],

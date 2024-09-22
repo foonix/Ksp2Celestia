@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ThunderKitSettings
   m_EditorClassIdentifier: 
   FirstLoad: 0
-  ShowOnStartup: 1
+  ShowOnStartup: 0
   GameExecutable: KSP2_x64.exe
   GamePath: F:\games\ksp2\KSP2-0.2.2.0
   Is64Bit: 1

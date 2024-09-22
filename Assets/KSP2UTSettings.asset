@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: KSP2UTSettings
   m_EditorClassIdentifier: 
   ignoredFiles: []
-  savedBuildPath: 
-  savedBuildMode: Everything
-  savedModAddressablesPath: 
+  savedBuildPath: F:/games/ksp2/KSP2-0.2.2.0/BepInEx/plugins/Celestia
+  savedBuildMode: Copy Assets Only
+  savedModAddressablesPath: addressables
   savedKsp2Path: F:/games/ksp2/KSP2-0.2.2.0/KSP2_x64.exe
   loadTkImportedCatalog: 1
   loadTkImportedCatalogPath: StreamingAssets/ksp2/aa/catalog.json
