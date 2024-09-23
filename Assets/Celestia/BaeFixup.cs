@@ -23,19 +23,26 @@ namespace Celestia
             };
         }
 
-        private static void InjectBaeDepsOnStart(Action<AssemblyPartsPicker> orig, AssemblyPartsPicker app)
+        private static void InjectBaeDepsOnStart(Action<AssemblyPartsPicker> orig, AssemblyPartsPicker baeApp)
         {
             // Fix missing link to PartInfoOverlay, which is a sibling in the OAB prefab.
-            var partInfoOverlay = app.transform.parent.GetComponentInChildren<PartInfoOverlay>(true);
-            app.PartInfoOverlay = partInfoOverlay;
+            var partInfoOverlay = baeApp.transform.parent.GetComponentInChildren<PartInfoOverlay>(true);
+            baeApp.PartInfoOverlay = partInfoOverlay;
 
             // Fix missing reference to size (S, M, L, XL, etc) color mapping by grabbing it from the OAB version.
-            var oabPicker = app.transform.parent.GetComponentsInChildren<AssemblyPartsPicker>(true)
+            var oabPicker = baeApp.transform.parent.GetComponentsInChildren<AssemblyPartsPicker>(true)
                 .Where(child => child.name == "widget_PartsPicker")
                 .First();
-            app.filterColors = oabPicker.filterColors;
+            baeApp.filterColors = oabPicker.filterColors;
 
-            orig(app);
+            // Fix orbital OAB environment lights being on layer 8 (OAB.Scenery) and not 9 (OAB.Parts).
+            // Without some lights on layer 9, the parts are completely unlit.
+            foreach (var light in baeApp.transform.root.GetComponentsInChildren<Light>())
+            {
+                light.cullingMask |= LayerMask.NameToLayer("OAB.Parts");
+            }
+
+            orig(baeApp);
         }
     }
 }
