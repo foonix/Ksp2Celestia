@@ -28,6 +28,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - parts_data
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea67793d586dfb546ba1ccbedde3fcf5
+    m_Address: ColonyFounder_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b1800c1c4b6d6f44daa7924e13a4a08b, type: 2}
   m_SchemaSet:
